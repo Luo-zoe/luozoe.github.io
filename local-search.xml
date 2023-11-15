@@ -20,22 +20,22 @@
   
   
   <entry>
-    <title></title>
+    <title>言·序</title>
     <link href="/"/>
     <url>/</url>
     
-    <content type="html"><![CDATA[!(function() {  /** 计时起始时间，自行修改 **/  var start = new Date("2023/11/10 00:00:00");  function update() {    var now = new Date();    now.setTime(now.getTime()+250);    days = (now - start) / 1000 / 60 / 60 / 24;    dnum = Math.floor(days);    hours = (now - start) / 1000 / 60 / 60 - (24 * dnum);    hnum = Math.floor(hours);    if(String(hnum).length === 1 ){      hnum = "0" + hnum;    }    minutes = (now - start) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);    mnum = Math.floor(minutes);    if(String(mnum).length === 1 ){      mnum = "0" + mnum;    }    seconds = (now - start) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);    snum = Math.round(seconds);    if(String(snum).length === 1 ){      snum = "0" + snum;    }    document.getElementById("timeDate").innerHTML = "本站已运行&nbsp"+dnum+"&nbsp天";    document.getElementById("times").innerHTML = hnum + "&nbsp小时&nbsp" + mnum + "&nbsp分&nbsp" + snum + "&nbsp秒";  }  update();  setInterval(update, 1000);})();]]></content>
+    <content type="html"><![CDATA[<p>嘛，<br>时光荏苒，不复从前<br>跌跌爬爬，如此往复不休……</p><p>何成？<br>求，然恒求<br>其乐亦在此吧！</p><blockquote><p>走过岁月的冷暖，感知生命的浮华，红尘如梦无纤尘，岁月自在无羁绊。<br>流失的是青春，苍老的是锐气，漂泊的是脚步，成熟的是心灵；<br>转瞬的是悸动，永恒的是心境，释怀的是从容，遗憾的是人生。</p><p>曾经被一缕风，吹乱了我的红尘。<br>尽管我极力掩饰内心的荒芜，那点点繁花的凌落，仍然成就了我的那无所适从。</p><p>人生短暂，青春将逝。<br>年岁被时光冲刷，喜怒皆浮华。</p><footer><strong>洛zoe</strong><cite><a href="https://mp.weixin.qq.com/s/UTPVOjW6DvRwZQNs6u-7ag">時旭</a></cite></footer></blockquote><p>愿上下求索，不失本心<br>其言——<strong>“时守”</strong></p><p align="right">By 洛<br>2023 1111 酉时</p><h1 id="Timeline"><a href="#Timeline" class="headerlink" title="Timeline"></a>Timeline</h1><h3 id="2023-1111"><a href="#2023-1111" class="headerlink" title="2023-1111"></a>2023-1111</h3><p>基于GitHub，利用Git等工具，使用hexo-fluid主题创建了属于我的第三个博客——「月中行」<br>这次博客的创建历经三天，中间断断续续地摸索，跟着一篇又一篇指导步履蹒跚地前进着<br>其间磕磕绊绊，但终究还是没有放弃，才有眼下的小窝，是属于自己的，一个寄托……</p><p><span  style="color: #475164; ">持续折腾中……</span></p>]]></content>
     
   </entry>
   
   
   
   <entry>
-    <title>言·序</title>
+    <title></title>
     <link href="/"/>
     <url>/</url>
     
-    <content type="html"><![CDATA[<p>嘛，<br>时光荏苒，不复从前<br>跌跌爬爬，如此往复不休……</p><p>何成？<br>求，然恒求<br>其乐亦在此吧！</p><p>愿上下求索，不失本心<br>其言——<strong>“时守”</strong></p><p align="right">By 洛<br>2023 1108 酉时</p>]]></content>
+    <content type="html"><![CDATA[!(function() {  /** 计时起始时间，自行修改 **/  var start = new Date("2023/11/10 00:00:00");  function update() {    var now = new Date();    now.setTime(now.getTime()+250);    days = (now - start) / 1000 / 60 / 60 / 24;    dnum = Math.floor(days);    hours = (now - start) / 1000 / 60 / 60 - (24 * dnum);    hnum = Math.floor(hours);    if(String(hnum).length === 1 ){      hnum = "0" + hnum;    }    minutes = (now - start) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);    mnum = Math.floor(minutes);    if(String(mnum).length === 1 ){      mnum = "0" + mnum;    }    seconds = (now - start) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);    snum = Math.round(seconds);    if(String(snum).length === 1 ){      snum = "0" + snum;    }    document.getElementById("timeDate").innerHTML = "本站已运行&nbsp"+dnum+"&nbsp天";    document.getElementById("times").innerHTML = hnum + "&nbsp小时&nbsp" + mnum + "&nbsp分&nbsp" + snum + "&nbsp秒";  }  update();  setInterval(update, 1000);})();]]></content>
     
   </entry>
   
